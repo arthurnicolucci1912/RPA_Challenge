@@ -5,26 +5,20 @@
 ![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
 
 
-RPA Challenge Automation
+ # RPA Challenge Automation
 Este projeto é um script em Python que automatiza o preenchimento de formulários no site RPA Challenge utilizando a biblioteca Selenium.
 O script lê os dados de um arquivo Excel e preenche os campos do formulário automaticamente.
 
-✅ Funcionalidades
+## Funcionalidades
 Lê dados de uma planilha .xlsx com pandas e openpyxl
-
 Automatiza o navegador Google Chrome via Selenium
-
 Preenche dinamicamente os campos do formulário
-
 Gera logs de erros para facilitar o debug
 
-📋 Pré-requisitos
+## Pré-requisitos
 Python 3.7 ou superior
-
 Google Chrome instalado
-
 ChromeDriver compatível com sua versão do Chrome e adicionado ao PATH
-
 Bibliotecas Python (instale com o pip):
 
 bash
@@ -51,7 +45,7 @@ txt
 Copiar
 Editar
 C:\Users\SE189129\Documents\_VEXIA\PYTHON\Selenium\Projetos\_RPACH_arthur_CERTO\docs\challenge.xlsx
-▶️ Como usar
+## Como usar
 Execute o script no terminal:
 
 bash
@@ -62,7 +56,7 @@ O navegador abrirá automaticamente e começará a preencher os formulários.
 
 Ao final, ele será fechado automaticamente após uma pausa de 10 segundos.
 
-📁 Estrutura do Projeto
+## Estrutura do Projeto
 bash
 Copiar
 Editar
@@ -74,17 +68,8 @@ rpa-challenge-automation/
 ├── error_log.txt                # Log de erros na leitura do Excel
 ├── field_erro_log.txt           # Log de erros nos campos do formulário
 └── requirements.txt             # Lista de dependências do projeto
-⚠️ Observações
+## Observações
 O campo field_erro_log.txt é gerado caso algum campo do formulário não seja preenchido corretamente.
-
 Sempre verifique se o ChromeDriver está atualizado e compatível com a versão do seu navegador Chrome.
-
 Caso tenha problemas com leitura do Excel ou preenchimento, consulte os arquivos de log.
 
-🤝 Contribuição
-Contribuições são sempre bem-vindas!
-Abra uma issue ou envie um pull request com melhorias, correções ou sugestões.
-
-📄 Licença
-Este projeto está licenciado sob a MIT License.
-Consulte o arquivo LICENSE para mais informações.
